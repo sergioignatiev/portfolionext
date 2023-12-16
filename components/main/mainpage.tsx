@@ -1,3 +1,4 @@
+import Link from "next/link"
 let button:string='2xl:w-[328px] md:w-[170px] md:h-[35px] w-[150px] h-[30px] 2xl:h-[56px] 2xl:rounded-[16px] rounded-[10px] 2xl:text-[20px] '
 export function Mainpage(){
 return <div className="absolute text-white 2xl:mt-[259px] xl:mt-[170px] mt-[150px] 
@@ -11,7 +12,7 @@ md:border-l-[1px] border-[white] md:ml-[68px] md:pl-[91px] ml-[20px] mr-[20px]">
 <p className="2xl:mt-[20px] mt-[15px]">Я работал со стартапами и учился самостоятельно на англоязычных курсах — w3schools и freeCodeCamp. </p>
 </div>
 <div className="flex 2xl:mt-[83px] mt-[50px] 2xl:mb-[214px] mb-[110px]">
-<button className={`${button} bg-white text-black`}>Мои Проекты</button>
+<Link href='/projects'><button className={`${button} bg-white text-black`}>Мои Проекты</button></Link>
 <button className={`${button} border-[1px] border-white md:ml-[39px] ml-[20px]`}>Мои Навыки</button>
 </div>
 
