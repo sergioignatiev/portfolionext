@@ -1,9 +1,9 @@
 let button:string='2xl:w-[328px] md:w-[170px] md:h-[35px] w-[150px] h-[30px] 2xl:h-[56px] 2xl:rounded-[16px] rounded-[10px] 2xl:text-[20px] '
 export function Mainpage(){
 return <div className="absolute text-white 2xl:mt-[259px] mt-[170px] 
-md:border-l-[1px] border-[white] md:ml-[68px] md:pl-[91px] ml-[20px]">
+md:border-l-[1px] border-[white] md:ml-[68px] md:pl-[91px] ml-[20px] mr-[20px]">
 <h3 className="2xl:text-[42px] text-[30px] md:font-bold font-semibold">Фронтенд разработчик</h3>
-<h1 className="2xl:text-[130px] md:text-[80px] text-[50px] font-semibold">Сергей Игнатьев</h1>
+<h1 className="2xl:text-[130px] text-[80px]  font-semibold">Сергей Игнатьев</h1>
 <div className="2xl:max-w-[552px] max-w-[400px] 2xl:text-[20px] text-[15px] font-normal 2xl:mt-[54px] mt-[30px]">
 <p>Здравствуйте! Я Сергей из Новороссийска. </p>
 <p className="2xl:mt-[20px] mt-[15px]">
