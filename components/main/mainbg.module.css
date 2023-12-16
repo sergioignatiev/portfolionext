@@ -1,8 +1,18 @@
 .mainimg{
   background-color: red;
     width:100%;
-    background: url('/main2.jpg');
+    background: url('/main.jpg');
    
   background-position: center;
+  
+}
+.grid{
+  display:grid;
+  grid-template-columns: 50% 50%;
+}
+@media (max-width:768px) {
+  .grid{
+    grid-template-columns: 0% 100%;
+  }
   
 }
