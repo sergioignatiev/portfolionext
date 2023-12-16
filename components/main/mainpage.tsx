@@ -12,7 +12,7 @@ md:border-l-[1px] border-[white] md:ml-[68px] md:pl-[91px] ml-[20px] mr-[20px]">
 </div>
 <div className="flex 2xl:mt-[83px] mt-[50px] 2xl:mb-[214px] mb-[110px]">
 <button className={`${button} bg-white text-black`}>Мои Проекты</button>
-<button className={`${button} border-[1px] border-white ml-[39px]`}>Мои Навыки</button>
+<button className={`${button} border-[1px] border-white md:ml-[39px] ml-[20px]`}>Мои Навыки</button>
 </div>
 
 </div>
