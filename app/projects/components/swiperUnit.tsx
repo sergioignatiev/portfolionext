@@ -1,10 +1,47 @@
+import Image from "next/image"
+let button:string='2xl:w-[328px] md:w-[170px] md:h-[35px] w-[150px] h-[30px] 2xl:h-[56px] 2xl:rounded-[16px] rounded-[10px] 2xl:text-[20px] '
 export function SwiperUnit({number}:{number:string}){
-    return <div className="flex  text-white ">
+    return <div className=" text-white ">
         
         <div className="text-[96px] font-extrabold opacity-10  mr-[100px]">{number}</div>
-       <div className="">
-        lorem999
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci laudantium molestias nostrum quam cumque possimus sequi doloremque, voluptatem quod voluptatibus eius distinctio rerum, temporibus minima. Iste quis, veniam commodi odit ducimus laboriosam distinctio cupiditate autem adipisci ipsa facilis, nemo perspiciatis veritatis consequuntur facere dicta ut recusandae reprehenderit qui ullam, consectetur quod aliquid! Nihil aliquam numquam illum quod alias consequuntur ipsam neque ab sapiente mollitia? Minima necessitatibus dolorem ullam molestiae culpa? Porro ipsum veniam repellendus, ullam totam dicta quis, obcaecati mollitia officiis sint, magni ipsam fugit suscipit quisquam fugiat quidem sunt laborum facere quam perferendis non nam dolorem. Inventore, dignissimos optio soluta fugit similique distinctio quaerat dolore necessitatibus, facere, eos quas porro saepe deserunt id rerum sit deleniti odit laborum sunt neque nostrum! Doloremque eos placeat obcaecati dolore, commodi, cum eaque aperiam officia enim eius perspiciatis aliquid dolorum aliquam deserunt provident doloribus odio. Sint quae nesciunt modi harum ut enim, quis tempore quo tenetur iusto debitis unde recusandae a praesentium voluptatum alias dolores tempora dignissimos laborum. Quam repellat sunt, facilis, ad nisi dolores corrupti ipsum itaque quibusdam dolorum sint nobis blanditiis esse commodi. Esse laboriosam velit, nesciunt, amet quas consequuntur dolorum molestias nulla fugiat facere, maxime ducimus aliquid atque vitae ad!</div>
-    <div className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptates, possimus fugit enim recusandae culpa! Laboriosam laudantium debitis consequatur quod reiciendis! Numquam laboriosam doloribus autem eveniet maxime quaerat harum, pariatur architecto, odit corporis aut? Pariatur reprehenderit magni in, maiores hic reiciendis optio, qui, delectus voluptatum veniam officiis officia at distinctio? Voluptatem ipsum at deserunt eum. Quaerat asperiores velit ducimus ipsam deserunt, labore nesciunt rerum nam. Id fuga voluptatum non dignissimos beatae, perspiciatis similique minus blanditiis consectetur cumque provident aspernatur odit aperiam, tempora iste quidem animi quia numquam. Unde commodi veniam, odit laudantium voluptas earum veritatis libero quibusdam reiciendis ipsa quo?</div>
+        <div className="text-[24px] mt-[-100px] ml-[160px]">Сайт-портфолио дизайнеру</div>
+        <div className="flex ml-[160px]">
+            <div className="">
+            <div className="flex w-[100%] border-t-[1px] border-[white] text-[16px]">
+
+                <div className="border-r-[1px] border-[white] pr-[24px]">
+                    <div className="text-[20px] mt-[40px]">Чем интересен проект: </div>
+                    Я взялся за этот проект, тк мне было интересно поработать с реальным заказчиком-дизайнером и реализовать изученные до этого навыки. 
+Особое внимание я уделял</div>
+            
+             <div className="border-r-[1px] border-[white] px-[24px]">
+                    <div className="text-[20px] mt-[40px]">Чем интересен проект: </div>
+                    В процессе работы я столкнулся с тем, что .... . В том числе понял, что нужно подтянуть навыки ... и сделал это в дальнейшем</div>
+
+                    <div className="px-[24px]">
+                    <div className="text-[20px] mt-[40px]">Чем интересен проект: </div>
+                    В процессе работы я столкнулся с тем, что .... . В том числе понял, что нужно подтянуть навыки ... и сделал это в дальнейшем</div>
+
+            </div>
+
+            <div className="flex mt-[53px]">
+                <div className="text-[20px] w-[40%] mr-[14px]">Этот проект научил меня:</div>
+                <div className="">Связываться с дизайнерами себе дороже. Поработаю-ка я в обычной компании. А то заебли со своими пиксель вправо, пиксель влево, а у самих даже слои нормально не названы!</div>
+            </div>
+<div className=" mt-[40px]">
+            <button className={`${button} bg-white text-[black]`}>Код на GitHab</button>
+            <button className={`${button} border-[1px] border-white ml-[53px]`}>Перейти на сайт</button>
+</div>
+</div>
+
+
+<Image
+alt='image'
+width={331}
+height={404}
+src={'/next.svg'}
+className="border-white border-[1px] rounded-[50px] ml-[93px]"
+/>
+</div>
     </div>
 }
