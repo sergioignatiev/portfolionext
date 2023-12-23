@@ -37,6 +37,26 @@ export default function SwiperProjects() {
         <SwiperSlide><SwiperUnit number={'05'}/></SwiperSlide>
         <SwiperSlide><SwiperUnit number={'06'}/></SwiperSlide>
       </Swiper>
+
+      <Swiper  modules={[Navigation]}
+      navigation={{
+        prevEl: '.swiper-button-prev',
+        nextEl: '.swiper-button-next',
+      }}
+      slidesPerView={3}
+  loop={true}
+  className=' -z-50  '
+      >
+
+
+
+        <SwiperSlide><div className='text-[50px] text-white font-extrabold opacity-50'>1</div></SwiperSlide>
+        <SwiperSlide><div className='text-[50px] text-white font-extrabold opacity-50'>2</div></SwiperSlide>
+        <SwiperSlide><div className='text-[50px] text-white font-extrabold opacity-50'>3</div></SwiperSlide>
+        <SwiperSlide><div className='text-[50px] text-white font-extrabold opacity-50'>4</div></SwiperSlide>
+        <SwiperSlide><div className='text-[50px] text-white font-extrabold opacity-50'>5</div></SwiperSlide>
+        <SwiperSlide><div className='text-[50px] text-white font-extrabold opacity-50'>6</div></SwiperSlide>
+      </Swiper>
       <NavigationUnits/>
     </>
   );
