@@ -34,12 +34,17 @@ export function SwiperTwo(){
 
 ]
     return <>
-     <Swiper  modules={[Navigation]}
+     <Swiper  modules={[Navigation,Autoplay]}
       navigation={{
-        prevEl: '.swiper-button-prev',
-        nextEl: '.swiper-button-next',
+        nextEl: '.swiper-button-prev',
+        prevEl: '.swiper-button-next',
       }}
       slidesPerView={4}
+      autoplay={{
+        "delay": 5000,
+        "disableOnInteraction": true
+      }}
+
   loop={true}
   className=' -z-50  lg:visible invisible'
       >

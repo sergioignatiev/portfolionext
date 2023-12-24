@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
-
+import 'swiper/css/autoplay'
 
 
 
@@ -20,11 +20,17 @@ export default function SwiperProjects() {
   return (
     <>
 
-      <Swiper  modules={[Navigation]}
+      <Swiper  modules={[Navigation,Autoplay]}
       navigation={{
         prevEl: '.swiper-button-prev',
         nextEl: '.swiper-button-next',
       }}
+      
+      autoplay={{
+        "delay": 5000,
+        "disableOnInteraction": true
+      }}
+
       slidesPerView={1.1}
   loop={true}
   className=' -z-50  '
