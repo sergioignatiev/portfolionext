@@ -15,6 +15,7 @@ import { SwiperUnit } from './swiperUnit';
 import NavigationUnits from './units/navigaition';
 
 export default function SwiperProjects() {
+  let w:number=window.innerWidth
   return (
     <>
 
@@ -23,7 +24,7 @@ export default function SwiperProjects() {
         prevEl: '.swiper-button-prev',
         nextEl: '.swiper-button-next',
       }}
-      slidesPerView={1.1}
+      slidesPerView={w>100?1.1:1}
   loop={true}
   className=' -z-50  '
       >
