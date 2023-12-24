@@ -24,7 +24,7 @@ export default function SwiperProjects() {
         prevEl: '.swiper-button-prev',
         nextEl: '.swiper-button-next',
       }}
-      slidesPerView={w>100?1.1:1}
+      slidesPerView={1}
   loop={true}
   className=' -z-50  '
       >
