@@ -15,7 +15,7 @@ import { SwiperUnit } from './swiperUnit';
 import NavigationUnits from './units/navigaition';
 
 export default function SwiperProjects() {
-  let w:number=window.innerWidth
+
   return (
     <>
 
