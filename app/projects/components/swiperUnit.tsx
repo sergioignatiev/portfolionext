@@ -1,7 +1,7 @@
 import Image from "next/image"
 let button:string='2xl:w-[328px] md:w-[170px] w-full md:h-[35px] w-[150px] h-[30px] 2xl:h-[56px] 2xl:rounded-[16px] rounded-[10px] 2xl:text-[20px] '
 export function SwiperUnit({number}:{number:string}){
-    return <div className=" text-white ">
+    return <div className=" text-white xl:ml-[20px]">
         
         <div className="2xl:text-[96px] lg:text-[55px] text-[30px] font-extrabold opacity-10  mr-[100px]">{number}</div>
         <div className="2xl:text-[24px] lg:text-[17px] 2xl:mt-[-100px] 2xl:ml-[160px] lg:ml-[100px]">Сайт-портфолио дизайнеру</div>
