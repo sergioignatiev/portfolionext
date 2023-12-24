@@ -14,6 +14,7 @@ import { Navigation,Autoplay } from 'swiper/modules';
 import { SwiperUnit } from './swiperUnit';
 import NavigationUnits from './units/navigaition';
 
+
 export default function SwiperProjects() {
 
   return (
@@ -39,25 +40,7 @@ export default function SwiperProjects() {
         <SwiperSlide><SwiperUnit number={'06'}/></SwiperSlide>
       </Swiper>
 
-      <Swiper  modules={[Navigation]}
-      navigation={{
-        prevEl: '.swiper-button-prev',
-        nextEl: '.swiper-button-next',
-      }}
-      slidesPerView={3}
-  loop={true}
-  className=' -z-50  lg:visible invisible'
-      >
-
-
-
-        <SwiperSlide><div className='text-[50px] text-white font-extrabold opacity-50'>1</div></SwiperSlide>
-        <SwiperSlide><div className='text-[50px] text-white font-extrabold opacity-50'>2</div></SwiperSlide>
-        <SwiperSlide><div className='text-[50px] text-white font-extrabold opacity-50'>3</div></SwiperSlide>
-        <SwiperSlide><div className='text-[50px] text-white font-extrabold opacity-50'>4</div></SwiperSlide>
-        <SwiperSlide><div className='text-[50px] text-white font-extrabold opacity-50'>5</div></SwiperSlide>
-        <SwiperSlide><div className='text-[50px] text-white font-extrabold opacity-50'>6</div></SwiperSlide>
-      </Swiper>
+     
       <NavigationUnits/>
     </>
   );

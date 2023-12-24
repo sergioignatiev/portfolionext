@@ -1,4 +1,5 @@
 import SwiperProjects from "./components/swiperProjects"
+import { SwiperTwo } from "./components/swiperTwo"
 
 
 
@@ -11,7 +12,10 @@ const Projects = () => {
 <h1 className='text-white 2xl:text-[64px] xl:text-[40px] text-[30px] font-bold'>МОИ РАБОТЫ</h1>
 
 <SwiperProjects/>
+
         </div>
+        
+        <div className="py-[52px]"><SwiperTwo/></div>
     </div>
   )
 }
