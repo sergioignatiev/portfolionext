@@ -23,7 +23,7 @@ export default function SwiperProjects() {
         prevEl: '.swiper-button-prev',
         nextEl: '.swiper-button-next',
       }}
-      slidesPerView={1.1}
+      slidesPerView={window.innerWidth>1024?1.1:1}
   loop={true}
   className=' -z-50  '
       >
@@ -45,7 +45,7 @@ export default function SwiperProjects() {
       }}
       slidesPerView={3}
   loop={true}
-  className=' -z-50  '
+  className=' -z-50  lg:visible invisible'
       >
 
 
