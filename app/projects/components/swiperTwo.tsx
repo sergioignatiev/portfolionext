@@ -14,25 +14,10 @@ import { Navigation,Autoplay } from 'swiper/modules';
 import { SwiperUnit } from './swiperUnit';
 import NavigationUnits from './units/navigaition';
 import { SecondSwUnit } from './units/secondSwUnit';
-interface Props{
-    id:string,
-    name:string
-}
+import { data } from './units/data';
+import { S } from './units/data';
 export function SwiperTwo(){
-    let arr:Props[]=[{id:"01",name:"Designer portfolio"},
-{id:'02',name:"Ciclists"},
-{id:'03',name:"Work5"},
-{id:"01",name:"Designer portfolio"},
-{id:'02',name:"Ciclists"},
-{id:'03',name:"Work5"},
-{id:"01",name:"Силиконовая долина"},
-{id:'02',name:"Ciclists"},
-{id:'03',name:"Work5"},
-{id:"01",name:"Designer portfolio"},
-{id:'02',name:"Ciclists"},
-{id:'03',name:"Work5"},
 
-]
     return <>
      <Swiper  modules={[Navigation,Autoplay]}
       navigation={{
@@ -51,7 +36,7 @@ export function SwiperTwo(){
 
 
 
-       {arr.map(i=><SwiperSlide key={i.id}><SecondSwUnit {...i}/></SwiperSlide>)}
+       {data.map(i=><SwiperSlide key={i.id}><SecondSwUnit {...i}/></SwiperSlide>)}
         
       </Swiper>
     </>

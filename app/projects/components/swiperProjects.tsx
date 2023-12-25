@@ -14,6 +14,7 @@ import { Navigation,Autoplay } from 'swiper/modules';
 import { SwiperUnit } from './swiperUnit';
 import NavigationUnits from './units/navigaition';
 
+import { data } from './units/data';
 
 export default function SwiperProjects() {
 
@@ -36,14 +37,10 @@ export default function SwiperProjects() {
   className=' -z-50  '
       >
 
+{data.map(i=><SwiperSlide key={i.id}><SwiperUnit {...i}/></SwiperSlide>)}
 
-
-        <SwiperSlide><SwiperUnit number={'01'}/></SwiperSlide>
-        <SwiperSlide><SwiperUnit number={'02'}/></SwiperSlide>
-        <SwiperSlide><SwiperUnit number={'03'}/></SwiperSlide>
-        <SwiperSlide><SwiperUnit number={'04'}/></SwiperSlide>
-        <SwiperSlide><SwiperUnit number={'05'}/></SwiperSlide>
-        <SwiperSlide><SwiperUnit number={'06'}/></SwiperSlide>
+       
+        
       </Swiper>
 
      
