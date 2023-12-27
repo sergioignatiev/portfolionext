@@ -6,7 +6,7 @@ const Percentage = ({name,n1,hovers}:{name:string,n1:number,hovers:H[]}) => {
   
   return (
     <div className="text-white flex w-full group mt-[20px]  ">
-    <p className="2xl:text-[20px] text-[15px] mr-[20px] xl:w-[104px] w-40% ">{name}</p>
+    <p className="2xl:text-[20px] text-[15px] pr-[20px] xl:w-[104px] w-40% ">{name}</p>
     <Hovers hovers={hovers}/>
     
 <div className="  group-hover:invisible absolute ml-[100px]  2xl:w-[565px] xl:w-[400px] lg:w-[250px]  w-[60%]">
