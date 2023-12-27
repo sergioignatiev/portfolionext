@@ -22,6 +22,14 @@ const Libraries = () => {
 <Percentage hovers={tailwind} name='Tailwind' n1={90}/>
 <Percentage hovers={tailwind} name='Bootstrap' n1={90}/>
 <Percentage hovers={tailwind} name='jQuery' n1={90}/>
+<Percentage hovers={react} name='React' n1={90}/>
+<Percentage hovers={tailwind} name='Tailwind' n1={90}/>
+<Percentage hovers={tailwind} name='Bootstrap' n1={90}/>
+<Percentage hovers={tailwind} name='jQuery' n1={90}/>
+<Percentage hovers={react} name='React' n1={90}/>
+<Percentage hovers={tailwind} name='Tailwind' n1={90}/>
+<Percentage hovers={tailwind} name='Bootstrap' n1={90}/>
+<Percentage hovers={tailwind} name='jQuery' n1={90}/>
 
     </div>
   
