@@ -13,7 +13,7 @@ let tailwind:H[]=[{id:1,hover:"daysyUi",percentage:88},
 
 const Libraries = () => {
   return (
-    <div className="flex flex-col justify-between  min-h-[50vh] w-[fit-content]">
+    <div className="flex flex-col justify-between  min-h-[50vh] w-[50%]">
 <Percentage hovers={react} name='React' n1={90}/>
 <Percentage hovers={tailwind} name='Tailwind' n1={90}/>
 <Percentage hovers={tailwind} name='Bootstrap' n1={90}/>

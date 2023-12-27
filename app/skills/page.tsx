@@ -6,7 +6,7 @@ let js:H[]=[{id:1,hover:"mapping",percentage:88},{id:2,hover:"DOM",percentage:44
 let ts:H[]=[{id:1,hover:"Interfaces",percentage:98}]
 const Skills = () => {
   return (
-    <div className="flex flex-col justify-between  min-h-[50vh] w-[fit-content]">
+    <div className="flex flex-col justify-between  min-h-[50vh] w-[100%]">
 <Percentage hovers={html} name='HTML' n1={70}/>
 <Percentage hovers={css} name='CSS' n1={75}/>
 <Percentage hovers={js} name='javaScript' n1={70}/>

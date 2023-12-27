@@ -17,14 +17,14 @@ const SkillsNav = () => {
 
 ]
   return (
-    <div className="flex  w-[808px]  justify-between">
+    <div className="flex w-[100%]   justify-between">
         
         {skillsNav.map(m=>
         <Link key={m.id} href={`/skills/${m.href}`} 
         className={classnames({
             'font-extrabold border-b-[2px]':`/skills${m.href}`===currentPath,
             'border-b-[1px] pb-[10px] font-light':`/skills${m.href}`!==currentPath,
-            'text-[20px] text-[white] border-b-white w-[100%] pb-[10px] text-center':true
+            '2xl:text-[20px] lg:text-[15px] text-[13px] pl-1  text-[white] border-b-white w-[100%] pb-[10px] text-center':true
           })}
         >
             {m.name}
