@@ -15,7 +15,7 @@ let HoverUnit=({children}:{children:string})=>{
 
 const Hovers = () => {
   return (
-    <div className=" duration-100 delay-100   w-[600px]  group-hover:h-[100%]   [transform:rotateX(90deg)] group-hover:[transform:rotateX(0deg)]">
+    <div className=" duration-100 delay-100   w-[600px] h-[0px] group-hover:h-[100%]   [transform:rotateX(90deg)] group-hover:[transform:rotateX(0deg)]">
         <div className=" border-white border-[1px] py-[30px] rounded-lg">
 <HoverUnit>GRID</HoverUnit>
 <HoverUnit>FLEX</HoverUnit>
