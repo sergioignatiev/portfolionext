@@ -9,7 +9,7 @@ let arrow=<svg xmlns="http://www.w3.org/2000/svg" width="9" height="13" viewBox=
 </svg>
 function NavUnit({children,brdr,brdrr,vis}:{children:React.ReactNode|string,brdr:boolean,brdrr:boolean,vis:boolean}){
 
-return <div style={{borderRight:'1px solid white',borderBottom:"1px solid white"}} className={classnames({
+return <div style={{borderRight:brdrr?'1px solid white':"",borderBottom:brdr?"1px solid white":""}} className={classnames({
     "":vis===true,
     'lg:flex hidden':vis!==true,
 '2xl:text-[16px] text-[12px] font-bold flex \
