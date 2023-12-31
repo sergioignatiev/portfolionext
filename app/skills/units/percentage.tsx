@@ -2,10 +2,12 @@
 import React from 'react'
 import { Hovers } from './hovers'
 import { H } from './hovers'
-const Percentage = ({name,n1,hovers}:{name:string,n1:number,hovers:H[]}) => {
+const Percentage = ({name,n1,hovers,group=true}
+  :{name:string,n1:number,group?:boolean,hovers?:H[]}) => {
+
   
   return (
-    <div className="text-white flex w-full group mt-[20px]  ">
+    <div className={`text-white flex w-full ${group?"group":""}   mt-[20px]  `}>
     <p className="2xl:text-[20px] text-[15px] pr-[20px] xl:w-[104px] w-40% ">{name}</p>
     <Hovers hovers={hovers}/>
     
