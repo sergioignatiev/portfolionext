@@ -45,16 +45,16 @@ export function Nav(){
 
  
  <NavUnit brdr={true} brdrr={true} vis={true}>
-    <Link className="flex items-center" href='/'>Сергей Игнатьев {arrow}</Link>
+    <Link className="flex items-center" href='/'>Сергей Игнатьев <pre> </pre> {arrow}</Link>
  </NavUnit>
  <NavUnit brdr={true} brdrr={true} vis={true}>
-    <Link className="flex items-center" href='/projects'>Проекты {arrow}</Link>
+    <Link className="flex items-center" href='/projects'>Проекты <pre> </pre> {arrow}</Link>
  </NavUnit>
  <NavUnit brdr={true} brdrr={true} vis={true}>
-    <Link className="flex items-center" href='/skills'>Навыки {arrow}</Link>
+    <Link className="flex items-center" href='/skills'>Навыки <pre> </pre> {arrow}</Link>
  </NavUnit>
  <NavUnit brdr={true} brdrr={true} vis={false}>
-    <Link className="flex items-center" href='/skills'>Контакты  {arrow}</Link>
+    <Link className="flex items-center" href='/skills'>Контакты <pre> </pre>  {arrow}</Link>
  </NavUnit>
  <NavUnit brdr={true} brdrr={false} vis={false}>
  +7 (965) 459 35-51
