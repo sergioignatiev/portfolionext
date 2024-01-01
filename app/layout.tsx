@@ -21,8 +21,7 @@ export default function RootLayout({
       <body className={`relative`}>
         <Nav/>
         <main className=''>{children}</main>
-    <Footer/>
-    <Footer/>
+  <Footer/>
         </body>
     </html>
   )

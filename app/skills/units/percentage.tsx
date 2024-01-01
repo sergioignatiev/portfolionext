@@ -22,7 +22,7 @@ function Lines({n1}:{n1:number}){
 const Percentage = ({name,n1,hovers,group=true}
   :{name:string,n1:number,hovers?:H[],group?:boolean}) => {
 
-  
+ 
   return (
     <div className={`text-white flex w-full ${group?"group":""} mt-[20px]`}>
     <p className="2xl:text-[20px] text-[15px] pr-[20px] xl:w-[104px] w-40% ">{name}</p>
