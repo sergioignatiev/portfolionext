@@ -36,8 +36,8 @@ export function SwiperUnit({id,name,interesting,interesting2,difficulties,diffic
             </div>
 
 <div className=" mt-[40px] flex sm:flex-row flex-col">
-            <button className={`${button} bg-white text-[black]`}><Link href={github}>Код на GitHab</Link></button>
-            <button className={`${button} border-[1px] border-white sm:ml-[53px] sm:mt-0 mt-5`}><Link href={site}>Перейти на сайт</Link></button>
+<Link  href={github} target="_blank"> <button className={`${button} bg-white text-[black]`}>Код на GitHab</button></Link>
+            <Link target="_blank" href={site}> <button className={`${button} border-[1px] border-white sm:ml-[53px] sm:mt-0 mt-5`}>Перейти на сайт</button></Link>
 </div>
 </div>
 
