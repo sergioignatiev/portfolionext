@@ -9,7 +9,7 @@ let HoverUnit=({children,percentage}:{children:string,percentage:number})=>{
 
 <div className="ml-[20px] lg:w-[55%] w-[100%]">
 <div className="  w-[100%] relative">
-      <div style={{width:`${percentage}%`}}  className="  absolute bg-[white]  
+      <div style={{width:`${percentage-10}%`}}  className="  absolute bg-[white]  
       rounded-[21px] text-[black] text-right pr-[20px] pt-[3px] 
       2xl:h-[27px] h-[17px] 2xl:text-[17px] text-[10px]">{percentage}%</div>
 <div className="w-[100% 2xl:text-[16px] text-[12px] bg-[#333333] 2xl:h-[27px] h-[17px] rounded-[21px] text-right pr-[2px] pt-[3px]">100%</div>

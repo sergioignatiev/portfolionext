@@ -3,6 +3,9 @@ import { Nav } from '@/components/nav'
 import { Inter } from 'next/font/google'
 import Footer from '@/components/footer'
 import './globals.css'
+import Projects from './projects/page'
+import SkillsLayout from './skills/layout'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,6 +24,7 @@ export default function RootLayout({
       <body className={`relative`}>
         <Nav/>
         <main className=''>{children}</main>
+     
   <Footer/>
         </body>
     </html>

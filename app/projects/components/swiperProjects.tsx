@@ -27,14 +27,11 @@ export default function SwiperProjects() {
         nextEl: '.swiper-button-next',
       }}
       
-      autoplay={{
-        "delay": 5000,
-        "disableOnInteraction": true
-      }}
+     
 
       slidesPerView={1.1}
   loop={true}
-  className=' -z-50  '
+  className=' -z-50  w-[full]'
       >
 
 {data.map(i=><SwiperSlide key={i.id}><SwiperUnit {...i}/></SwiperSlide>)}
