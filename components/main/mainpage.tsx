@@ -2,7 +2,7 @@ import Link from "next/link"
 export let button:string='2xl:w-[328px] md:w-[170px] md:h-[35px] \
 w-[150px] h-[30px] 2xl:h-[56px] 2xl:rounded-[16px] rounded-[10px] 2xl:text-[20px]  duration-1000 hover:scale-[90%]'
 function Paragraph({children}:{children:string}){
-return <p className="duration-1000 focus:scale-[1210%]   mt-[10px]">{children}</p>
+return <p className="duration-1000 leading-[120%]   mt-[10px]">{children}</p>
 }
 export function Mainpage(){
 return <div className="absolute text-white 2xl:mt-[259px] xl:mt-[170px] mt-[150px] 
