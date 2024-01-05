@@ -8,7 +8,7 @@ export function Mainpage(){
 return <div className="absolute text-white 2xl:mt-[259px] xl:mt-[170px] mt-[150px] 
  md:pl-[60px] ml-[20px] mr-[20px]">
 <h3 className="2xl:text-[42px] text-[30px] md:font-bold font-semibold">Фронтенд разработчик</h3>
-<h1 className="2xl:text-[130px] md:text-[80px] text-[60px] font-semibold md:mt-0 mt-[10px] leading-[168px]">Сергей Игнатьев</h1>
+<h1 className="2xl:text-[141px] md:text-[80px] text-[60px] font-semibold md:mt-0 mt-[10px] leading-[168px]">Сергей Игнатьев</h1>
 <div className="2xl:max-w-[552px] max-w-[400px] \
 2xl:text-[20px] text-[17px]\
  font-normal 2xl:mt-[54px] md:mt-[30px] mt-[50px]\

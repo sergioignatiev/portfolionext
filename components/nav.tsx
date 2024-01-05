@@ -33,7 +33,7 @@ export function Nav(){
  
 
  <nav className="flex justify-between w-full ">
-<NavUnit brdr={false} brdrr={false} vis={false}>
+<NavUnit brdr={true} brdrr={false} vis={false}>
 <Image
     src='/mouse.png'
  alt='mouse'
