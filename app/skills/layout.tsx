@@ -11,7 +11,7 @@ const SkillsLayout = ({children}:{children:React.ReactNode}) => {
         <div className=" lg:pl-[63px] px-[20px] pb-[64px]  lg:w-[50%] ">
         <h1 className="2xl:text-[64px] lg:text-[40px] text-[32px] font-bold pb-[70px]">МОИ НАВЫКИ</h1>
         <SkillsNav/>
-        <main className="mt-[100px] ">{children}</main>
+        <main className="mt-[100px] pr-[58px]">{children}</main>
         </div>
 <SoftSkills/>
         </div>
