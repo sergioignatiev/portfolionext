@@ -26,10 +26,7 @@ return <div className="absolute text-white 2xl:mt-[259px] xl:mt-[170px] mt-[150p
 <Paragraph>
     Я работал со стартапами,на фрилансе  и учился самостоятельно на курсах — w3schools и freeCodeCamp.
 </Paragraph>
-<Paragraph>
-Планирую и дальше активно развиваться в данном направлении.
 
-</Paragraph>
 
 </div>
 <div className="flex 2xl:mt-[83px] mt-[50px] 2xl:mb-[214px] mb-[110px]">
