@@ -27,7 +27,7 @@ export function Nav(){
     return <div className={classnames({
         'bg-[#222629] bg-opacity-50':`/`===currentPath,
         'bg-[#1f1f1f]':`/`!==currentPath,
-        '  text-white left absolute z-10 flex w-full h-[96px] pt-[10px]':true
+        '  text-white left absolute z-10 flex w-full 2xl:h-[96px] pt-[10px]':true
       })}>
       
  
