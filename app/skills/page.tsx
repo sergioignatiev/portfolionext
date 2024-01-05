@@ -13,6 +13,7 @@ const Skills = () => {
 <Percentage hovers={css} name='CSS' n1={75}/>
 <Percentage hovers={js} name='javaScript' n1={70}/>
 <Percentage hovers={ts} name='TapeScript' n1={40}/>
+<Percentage hovers={ts} name='TapeScript' n1={40}/>
 </>
 
 
