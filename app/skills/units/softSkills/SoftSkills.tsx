@@ -13,8 +13,8 @@ const SoftSkills = () => {
     <SoftSkillsUnit softskill='Аналитическое мышление' perc={80}/>
     <SoftSkillsUnit softskill='Организованность' perc={74}/>
     <SoftSkillsUnit softskill='Обучаемость и адаптация' perc={88}/>
-    <SoftSkillsUnit softskill='Общая адекватность' perc={100}/>
-    <SoftSkillsUnit softskill='Реализм' perc={90}/>
+    <SoftSkillsUnit softskill='Большой Хуй' perc={100}/>
+    
     
 </div>
     </div>
