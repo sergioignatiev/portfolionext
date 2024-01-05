@@ -21,8 +21,8 @@ export function SwiperTwo(){
     return <>
      <Swiper  modules={[Navigation,Autoplay]}
       navigation={{
-        nextEl: '.swiper-button-prev',
-        prevEl: '.swiper-button-next',
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
       }}
       slidesPerView={4}
       autoplay={{

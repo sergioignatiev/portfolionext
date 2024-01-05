@@ -1,7 +1,9 @@
 import Image from "next/image"
 import Link from "next/link"
 
-let button:string='2xl:w-[328px] md:w-[190px]  w-full md:h-[40px] w-[150px] h-[30px] 2xl:h-[56px] 2xl:rounded-[16px] rounded-[10px] 2xl:text-[20px] '
+let button:string='2xl:w-[328px] md:w-[190px]  w-full md:h-[40px] w-[150px] h-[30px] 2xl:h-[56px] 2xl:rounded-[16px]\
+ rounded-[10px] 2xl:text-[20px] \
+ duration-1000 hover:scale-[90%]'
 import { S } from "./units/data"
 export function SwiperUnit({id,name,interesting,interesting2,difficulties,difficulties2,problems,problems2
 ,learned,learned2,image,site,github
@@ -47,7 +49,7 @@ alt='image'
 width={430}
 height={404}
 src={image}
-className="grayscale hover:grayscale-0 
+className="grayscale hover:grayscale-0 duration-100 
 w-[100%] 
  2xl:rounded-[50px] rounded-[30px] 2xl:h-[404px] 2xl:w-[430px] xl:h-[304px] xl:w-[330px] 2xl:mr-[3px] "
 />
