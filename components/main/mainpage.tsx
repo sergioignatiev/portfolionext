@@ -33,7 +33,7 @@ return <div className="absolute text-white 2xl:mt-[259px] xl:mt-[170px] mt-[150p
 
 </div>
 <div className="flex 2xl:mt-[83px] mt-[50px] 2xl:mb-[214px] mb-[110px]">
-<Link href='/projects'><button className={`${button} bg-white text-black hover:text-white `}>Мои Проекты</button></Link>
+<Link href='/projects'><button className={`${button} bg-white text-black `}>Мои Проекты</button></Link>
 <Link href='/skills'><button className={`${button} border-[1px] border-white md:ml-[39px] ml-[20px]`}>Мои Навыки</button></Link>
 </div>
 
