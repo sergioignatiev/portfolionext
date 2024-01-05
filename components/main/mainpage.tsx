@@ -1,16 +1,39 @@
 import Link from "next/link"
 export let button:string='2xl:w-[328px] md:w-[170px] md:h-[35px] \
-w-[150px] h-[30px] 2xl:h-[56px] 2xl:rounded-[16px] rounded-[10px] 2xl:text-[20px] hover:opacity-60'
+w-[150px] h-[30px] 2xl:h-[56px] 2xl:rounded-[16px] rounded-[10px] 2xl:text-[20px]  hover:scale-[98%]'
+function Paragraph({children}:{children:string}){
+return <p className="2xl:mt-[20px] mt-[15px]">{children}</p>
+}
 export function Mainpage(){
 return <div className="absolute text-white 2xl:mt-[259px] xl:mt-[170px] mt-[150px] 
  md:pl-[60px] ml-[20px] mr-[20px]">
 <h3 className="2xl:text-[42px] text-[30px] md:font-bold font-semibold">Фронтенд разработчик</h3>
 <h1 className="2xl:text-[130px] md:text-[80px] text-[60px] font-semibold md:mt-0 mt-[10px]">Сергей Игнатьев</h1>
 <div className="2xl:max-w-[552px] max-w-[400px] 2xl:text-[20px] text-[17px] font-normal 2xl:mt-[54px] md:mt-[30px] mt-[50px]">
-<p>Здравствуйте! Я Сергей из Новороссийска. </p>
-<p className="2xl:mt-[20px] mt-[15px]">
-Моя душа лежит к кодингу, больше всего я люблю верстать сайты. Активно развиваюсь как веб-разработчик.</p>
-<p className="2xl:mt-[20px] mt-[15px]">Я работал со стартапами и учился самостоятельно на англоязычных курсах — w3schools и freeCodeCamp. </p>
+<Paragraph>
+    Здравствуйте! Я Сергей из Новороссийска. 
+    </Paragraph>
+<Paragraph>
+    Не растекаясь мыслью по древу хочу вам рассказать о себе я.
+   Рожден был я в далеком 1987 году в земле Литовской, бывшей тогда частью СССР, или согласно другому мнению территорией
+   оккупированной Советским Союзом, нет единого мнения сейчас ни среди историков , ни среди политиков по вопросу этому,
+   хотя согласно Атлантической хартии вроде как неявно западные страны признали прибалтику сферой влияния Союза.
+   Ну да и бог с ними, в мире много территорий с неопределенным статусом. Палестина, и другие. 
+   Детство мое прошло в Ивановской области в городе Тейково. Были у меня две кошки, кот, кролики , свиньи и собака Рэкс. 
+   
+
+</Paragraph>
+
+<Paragraph>
+Люблю Веб-разработку и активно развиваюсь в данном направлении.
+</Paragraph>
+<Paragraph>
+    Я работал со стартапами,на фрилансе  и учился самостоятельно на курсах — w3schools и freeCodeCamp.
+</Paragraph>
+<Paragraph>
+Планирую и дальше активно развиваться в данном направлении.
+
+</Paragraph>
 </div>
 <div className="flex 2xl:mt-[83px] mt-[50px] 2xl:mb-[214px] mb-[110px]">
 <Link href='/projects'><button className={`${button} bg-white text-black`}>Мои Проекты</button></Link>
