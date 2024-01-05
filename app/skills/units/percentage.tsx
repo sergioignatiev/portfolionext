@@ -8,7 +8,7 @@ function Lines({n1}:{n1:number}){
 
   <div className=" 2xl:w-[565px] w-[100%]  relative">
   
-        <div style={{width:`${n1}%`}} className=' absolute bg-[white] text-[10px] 2xl:text-[17px]
+        <div style={{width:`${n1}%`}} className=' absolute bg-[#e9e9e9] text-[10px] 2xl:text-[17px]
          rounded-[21px] text-[black] text-right pr-[20px] pt-[3px] 2xl:h-[27px] h-[17px]'>{n1}%</div>
          
   <div className="w-[100%] bg-[#333333]  rounded-[21px] 
