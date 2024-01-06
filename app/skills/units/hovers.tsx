@@ -23,7 +23,7 @@ let HoverUnit=({children,percentage}:{children:string,percentage:number})=>{
 
 const Hovers = ({hovers}:{hovers?:H[]}) => {
   return (
-    <div className="lg:ml-[20px] duration-100 delay-100 w-[100%] h-[0px] group-hover:h-[100%]   [transform:rotateX(90deg)] group-hover:[transform:rotateX(0deg)]">
+    <div className="lg:ml-[20px]  duration-100 delay-100 min-w-full w-[100%] h-[0px] group-hover:h-[100%]   [transform:rotateX(90deg)] group-hover:[transform:rotateX(0deg)]">
         <div className="lg:ml-[20px] border-[#D9D9D9] border-[1px] 2xl:p-[30px] 2xl:pt-[10px] p-[10px] rounded-[21px]">
 {hovers&&hovers.map(h=><HoverUnit percentage={h.percentage} key={h.id}>{h.hover}</HoverUnit>)}
 
