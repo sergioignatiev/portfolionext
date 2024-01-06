@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 
-let button:string='2xl:w-[328px] md:w-[190px]  w-full md:h-[40px] w-[150px] h-[30px] 2xl:h-[56px] 2xl:rounded-[16px]\
+let button:string='2xl:w-[284px] md:w-[190px]  w-full md:h-[40px] w-[150px] h-[30px] 2xl:h-[56px] 2xl:rounded-[16px]\
  rounded-[10px] 2xl:text-[20px] \
  duration-1000 hover:scale-[90%]'
 import { S } from "./units/data"
