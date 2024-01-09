@@ -1,7 +1,7 @@
 'use client'
 import Link from "next/link"
 import classnames from 'classnames'
-import Image from "next/image"
+import { github,hh,telegram } from "./svgs"
 import { usePathname } from 'next/navigation'
 
 let arrow=<svg xmlns="http://www.w3.org/2000/svg" width="9" height="13" viewBox="0 0 9 13" fill="none">
@@ -33,15 +33,7 @@ export function Nav(){
  
 
  <nav className="flex justify-between w-full ">
-<NavUnit brdr={true} brdrr={false} vis={false}>
-<Image
-    src='/mouse.png'
- alt='mouse'
- width={29}
- height={2}
- />
 
-</NavUnit>
 
  
  <NavUnit brdr={true} brdrr={true} vis={true}>
@@ -53,9 +45,7 @@ export function Nav(){
  <NavUnit brdr={true} brdrr={true} vis={true}>
     <Link className="flex items-center" href='/skills'>Навыки <pre> </pre> {arrow}</Link>
  </NavUnit>
- <NavUnit brdr={true} brdrr={true} vis={false}>
-    <Link className="flex items-center" href='/skills'>Контакты <pre> </pre>  {arrow}</Link>
- </NavUnit>
+
  <NavUnit brdr={true} brdrr={false} vis={false}>
  +7 (965) 459 35-51
    
@@ -63,9 +53,18 @@ export function Nav(){
  <NavUnit brdr={true} brdrr={true} vis={false}>
  ignatevsergey17@gmail.com
  </NavUnit>
- <NavUnit brdr={true} brdrr={false} vis={false}>
-    <Link className="flex items-center" href='/skills'>RU{arrow}</Link>
- </NavUnit>
+
+<NavUnit brdr={true} brdrr={true} vis={false}>
+   <div className="flex justify-between w-[70%]">
+      <div className="flex">
+<div className="">{github}</div>
+<div className="ml-[20px]">{hh}</div>
+</div>
+<div className="">{telegram}</div>
+</div>
+</NavUnit>
+
+ 
  </nav>
         </div>
 }
