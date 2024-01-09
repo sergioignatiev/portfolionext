@@ -29,7 +29,7 @@ export const data:S[]=[
      и нужно просто научиться использовать их!',
        image:"/MA.png",
        github:"https://github.com/sergioignatev/for-efrem",
-       site:'https://sergioignatev.github.io/for-efrem/#/'
+       site:'https://sergioignatiev.github.io/for-efrem/#/'
 
 },
 {id:"02",name:"Список покупок",
@@ -49,7 +49,7 @@ difficulties2:'В процессе работы я столкнулся с те�
    а у самих даже слои нормально не названы!',
    image:"/grocery.png",
    github:"https://github.com/sergioignatev/Grocery",
-   site:'https://sergioignatev.github.io/Grocery/'
+   site:'https://sergioignatiev.github.io/Grocery/'
 
 },
 {id:"03",name:"NevaTrip",
@@ -70,7 +70,7 @@ difficulties2:'В процессе работы я столкнулся с те�
    а у самих даже слои нормально не названы!',
    image:"/nevatrip.png",
    github:"https://github.com/sergioignatev/nevatrip",
-   site:'https://sergioignatev.github.io/nevatrip/'
+   site:'https://sergioignatiev.github.io/nevatrip/'
 
 },
 {id:"04",name:"Велосипеды",
@@ -91,7 +91,7 @@ difficulties2:'В процессе работы я столкнулся с те�
    а у самих даже слои нормально не названы!',
    image:"/bike.png",
    github:"https://github.com/sergioignatev/bycicle",
-   site:'https://sergioignatev.github.io/bycicle/'
+   site:'https://sergioignatiev.github.io/bycicle/'
 
 },
 {id:"05",name:"Pipernet",
@@ -112,7 +112,7 @@ difficulties2:'В процессе работы я столкнулся с те�
    а у самих даже слои нормально не названы!',
    image:"/pipernet.png",
    github:"https://github.com/sergioignatev/pipernet",
-   site:'https://sergioignatev.github.io/pipernet/'
+   site:'https://sergioignatiev.github.io/pipernet/'
 
 }
 
