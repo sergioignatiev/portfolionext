@@ -15,10 +15,10 @@ const Footer = () => {
    
    <div className="flex lg:flex-row flex-col">
 <FooterUnit w='flex 2xl:w-1/6 lg:w-1/3'>
-<div className="flex mx-[46px] justify-between w-full">
+<div className="flex md:mx-[46px] mx-[20px] md:justify-between w-full ">
   <div className="">{logo}</div>
-  <div className="">2024</div>
-  <div className="">Анна Севоян</div>
+  <div className="md:ml-0 ml-4">2024</div>
+  <div className="md:ml-0 ml-4">Анна Севоян</div>
 </div>
 
 </FooterUnit>
