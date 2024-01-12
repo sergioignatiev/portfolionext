@@ -27,7 +27,7 @@ export default function RootLayout({
         <div className="lg:block hidden"><Nav/></div>
         <div className="lg:hidden"><NavMobile/></div>
         <main className=''>{children}</main>
-     
+     <Footer/>
    
         </body>
     </html>
