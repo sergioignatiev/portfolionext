@@ -21,6 +21,15 @@ return <div style={{borderRight:brdrr?'1px solid white':"",borderBottom:brdr?"1p
 
 }
 
+function Links({href,label}:{href:string,label:string}){
+   const currentPath= usePathname()
+   return <Link  href={`${href}`} className={classnames({
+      'font-extrabold border-b-[#e9e9e9] border-b-[1px]':`${href}`===currentPath,
+      '':`/`!==currentPath,
+      ' flex items-center':true
+    })}>{label} <pre> </pre> {arrow}</Link>
+}
+
 export function Nav(){
 
     const currentPath= usePathname()
@@ -37,25 +46,13 @@ export function Nav(){
 
  
  <NavUnit brdr={true} brdrr={true} vis={true}>
-    <Link  href='/' className={classnames({
-        'font-extrabold border-b-[#e9e9e9] border-b-[1px]':`/`===currentPath,
-        '':`/`!==currentPath,
-        ' flex items-center ':true
-      })} >Сергей Игнатьев <pre> </pre> {arrow}</Link>
+   <Links href='/' label='Сергей Игнатьев'/>
  </NavUnit>
  <NavUnit brdr={true} brdrr={true} vis={true}>
-    <Link  href='/projects' className={classnames({
-        'font-extrabold border-b-[#e9e9e9] border-b-[1px]':`/projects`===currentPath,
-        '':`/`!==currentPath,
-        ' flex items-center':true
-      })}>Проекты <pre> </pre> {arrow}</Link>
+    <Links href='/projects' label='Проекты'/>
  </NavUnit>
  <NavUnit brdr={true} brdrr={true} vis={true}>
-    <Link  href='/skills' className={classnames({
-        'font-extrabold border-b-[#e9e9e9] border-b-[1px]':`/skills`===currentPath,
-        '':`/`!==currentPath,
-        ' flex items-center ':true
-      })}>Навыки <pre> </pre> {arrow}</Link>
+ <Links href='/skills' label='Навыки' />
  </NavUnit>
 
  <NavUnit brdr={true} brdrr={false} vis={false}>
