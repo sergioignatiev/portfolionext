@@ -2,7 +2,7 @@ import Link from "next/link"
 import { whatsapp,telegram,github,hh,mail ,logo} from "./svgs"
 function FooterUnit({children,w}:{children:React.ReactNode,w:string}){
 return <div className={` items-center justify-center border-collapse
-md:border-l-[1px] md:border-r-[0.5px] border-white ${w} h-[96px] text-[16px]
+md:border-l-[1px] md:border-r-[0.5px] border-white ${w} 2xl:h-[96px] h-[70px] text-[16px]
 `}>{children}</div>
 }
 

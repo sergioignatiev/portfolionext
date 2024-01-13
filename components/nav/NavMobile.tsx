@@ -1,19 +1,20 @@
 'use client'
 import { useState } from "react"
+import Link from "next/link"
 import Aside from "./Aside"
 import { github,hh,telegram,mail,phone } from "../svgs"
 import { TfiAlignJustify } from "react-icons/tfi"
 function NavRight(){
     return <div className="flex pl-[39px]  pr-[27px] h-[70px] ">
 <div className="flex items-center"> 
-<div className="">{github}</div>
-<div className="ml-[10px]">{hh}</div>
+<div className="">         <Link href='https://github.com/sergioignatiev' target="_blank">{github}</Link></div>
+<div className="ml-[10px]"><Link href='https://novorossiysk.hh.ru/resume/b921ce59ff0b345b4c0039ed1f7574744d706e' target="_blank">{hh}    </Link></div>
 </div>
 
 <div className="flex items-center pl-[33px]"> 
 <div className="">{phone}</div>
-<div className="ml-[10px]">{telegram}</div>
-<div className="ml-[10px]">{mail}</div>
+<div className="ml-[10px]"><Link href='https://t.me/SerjioIgnatev' target='_blank'>{telegram}</Link></div>
+<div className="ml-[10px]"><Link href='https://mail.google.com/mail/u/0/#sent?compose=GTvVlcSBmmDKrgQKJHKzXZZKMwwWQkfHXNCXbhTHkFZdTVSnRtBfHMCXjlcVdrpHHVScgnPXRTmpp' target='_blank'>{mail}    </Link></div>
 </div>
 
     </div>
