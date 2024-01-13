@@ -16,7 +16,7 @@ const Footer = () => {
    <div className="flex lg:flex-row flex-col">
 <FooterUnit w='flex 2xl:w-1/6 lg:w-1/3'>
 <div className="flex md:mx-[46px] mx-[20px] md:justify-between w-full ">
-  <div className="">{logo}</div>
+  <div className="relative"><div className="absolute left-[7px] top-[-3px] text-[20px]">c</div> {logo}</div>
   <div className="md:ml-0 ml-4">2024</div>
   <div className="md:ml-0 ml-4">Анна Севоян</div>
 </div>
@@ -25,14 +25,14 @@ const Footer = () => {
 <FooterUnit w='flex 2xl:w-3/6 lg:w-2/3 '><div className="flex md:flex-row flex-col  md:mx-[100px] mx-[20px]  w-full justify-between">
 
   <div className="flex w-full md:mt-[0] mt-[20px]">
-   <div className="">{github}</div>
-   <div className=" ml-[20px]">{hh}</div>
+   <div className=""><Link href='https://github.com/sergioignatiev' target="_blank">{github}</Link></div>
+   <div className=" ml-[20px]"><Link href='https://novorossiysk.hh.ru/resume/b921ce59ff0b345b4c0039ed1f7574744d706e' target='_blank'>{hh}</Link></div>
   </div>
 
 <div className="flex w-full md:mt-[0] mt-[20px]">
-<div className="">{whatsapp}</div>
-<div className="ml-[20px]">{telegram}</div>
-<div className="ml-[20px]">{mail}</div>
+<div className=""><a href="#">{whatsapp}</a></div>
+<div className="ml-[20px]"><Link href='https://t.me/SerjioIgnatev' target='_blank'>{telegram}</Link></div>
+<div className="ml-[20px]"><Link href='https://mail.google.com/mail/u/0/#sent?compose=GTvVlcSBmmDKrgQKJHKzXZZKMwwWQkfHXNCXbhTHkFZdTVSnRtBfHMCXjlcVdrpHHVScgnPXRTmpp' target='_blank'>{mail}</Link></div>
 
 </div>
 

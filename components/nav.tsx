@@ -25,25 +25,37 @@ export function Nav(){
 
     const currentPath= usePathname()
     return <div className={classnames({
-        'bg-[#222629] bg-opacity-50':`/`===currentPath,
+        'bg-[#222629] bg-opacity-50 ':`/`===currentPath,
         'bg-[#1f1f1f]':`/`!==currentPath,
         '  text-white left absolute z-10 flex w-full 2xl:h-[96px] pt-[10px]':true
       })}>
       
  
 
- <nav className="flex justify-between w-full ">
+ <nav className="flex justify-between w-full text-[16px] ">
 
 
  
  <NavUnit brdr={true} brdrr={true} vis={true}>
-    <Link className="flex items-center" href='/'>Сергей Игнатьев <pre> </pre> {arrow}</Link>
+    <Link  href='/' className={classnames({
+        'font-extrabold border-b-[#e9e9e9] border-b-[1px]':`/`===currentPath,
+        '':`/`!==currentPath,
+        ' flex items-center ':true
+      })} >Сергей Игнатьев <pre> </pre> {arrow}</Link>
  </NavUnit>
  <NavUnit brdr={true} brdrr={true} vis={true}>
-    <Link className="flex items-center" href='/projects'>Проекты <pre> </pre> {arrow}</Link>
+    <Link  href='/projects' className={classnames({
+        'font-extrabold border-b-[#e9e9e9] border-b-[1px]':`/projects`===currentPath,
+        '':`/`!==currentPath,
+        ' flex items-center':true
+      })}>Проекты <pre> </pre> {arrow}</Link>
  </NavUnit>
  <NavUnit brdr={true} brdrr={true} vis={true}>
-    <Link className="flex items-center" href='/skills'>Навыки <pre> </pre> {arrow}</Link>
+    <Link  href='/skills' className={classnames({
+        'font-extrabold border-b-[#e9e9e9] border-b-[1px]':`/skills`===currentPath,
+        '':`/`!==currentPath,
+        ' flex items-center ':true
+      })}>Навыки <pre> </pre> {arrow}</Link>
  </NavUnit>
 
  <NavUnit brdr={true} brdrr={false} vis={false}>
