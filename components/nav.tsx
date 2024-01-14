@@ -2,7 +2,7 @@
 import Icons from "./nav/Icons"
 import Link from "next/link"
 import classnames from 'classnames'
-import { github,hh,telegram,hhwhite } from "./svgs"
+import { github,hh,telegram,hhwhite,githubwhite,telegramwhite } from "./svgs"
 import { usePathname } from 'next/navigation'
 
 let arrow=<svg xmlns="http://www.w3.org/2000/svg" width="9" height="13" viewBox="0 0 9 13" fill="none">
@@ -67,10 +67,10 @@ export function Nav(){
 <NavUnit brdr={true} brdrr={true} vis={false}>
    <div className="flex justify-between w-[70%]">
       <div className="flex">
-<div className="">         <Link href='https://github.com/sergioignatiev' target='_blank'>{github}</Link></div>
+<div className="">         <Link href='https://github.com/sergioignatiev' target='_blank'><Icons icon={github} white={githubwhite}/></Link></div>
 <div className="ml-[20px]"><Link href='https://novorossiysk.hh.ru/resume/b921ce59ff0b345b4c0039ed1f7574744d706e' target="_blank"><Icons icon={hh} white={hhwhite}/>   </Link></div>
 </div>
-<div className="">        <Link href='https://t.me/SerjioIgnatev' target="_blank"> {telegram}</Link></div>
+<div className="">        <Link href='https://t.me/SerjioIgnatev' target="_blank"> <Icons icon={telegram} white={telegramwhite}/></Link></div>
 </div>
 </NavUnit>
 
