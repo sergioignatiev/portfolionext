@@ -13,7 +13,7 @@ const SkillsNav = () => {
     let skillsNav:Nav[]=[{id:1,name:"Языки",href:""},
     {id:2,name:"Библиотеки",href:"/libraries"},
 {id:3,name:"Фреймворки",href:"/freimworks"},
-{id:4,name:"Сервера ",href:"/servers"}
+{id:4,name:"Cервера ",href:"/servers"}
 
 ]
   return (

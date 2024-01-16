@@ -17,13 +17,15 @@ const Libraries = () => {
   return (
     <Freim>
       <>
+      
 <Percentage hovers={react} group={true}  name='React' n1={70}/>
-<Percentage hovers={tailwind} group={false}  name='Tailwind' n1={90}/>
+
 <Percentage hovers={tailwind} group={false} name="DaisyUI" n1={60}/>
-<Percentage hovers={tailwind} group={false} name='Swiper.js' n1={70}/>
-
+<Percentage hovers={tailwind} group={false} name='React Icons' n1={70}/>
+<Percentage hovers={tailwind} group={false} name='Reactstrap' n1={80}/>
+<Percentage hovers={tailwind} group={false} name='Framer Motion' n1={50}/>
 <Percentage hovers={tailwind} group={false} name='NPM' n1={80}/>
-
+<Percentage hovers={tailwind} group={false} name='jQuery' n1={30}/>
 
 
 </>

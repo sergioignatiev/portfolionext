@@ -6,7 +6,7 @@ export interface SS{
 }
 const SoftSkillsUnit = ({perc,softskill}:SS) => {
   return (
-  <div className="flex w-full ">
+  <div className="flex w-full mt-[15px]">
 <div className="2xl:text-[20px] text-[15px] font-normal w-[40%] ">{softskill}</div>
 
 <div  className="relative w-[60%] ">
