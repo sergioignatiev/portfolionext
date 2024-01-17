@@ -12,7 +12,7 @@ function NavRight(){
 </div>
 
 <div className="flex items-center pl-[33px]"> 
-<div className=""><Link href="tel:123-456-7890">{phone}</Link></div>
+<div className=""><Link href="tel:89654593551">{phone}</Link></div>
 <div className="ml-[10px]"><Link href='https://t.me/SerjioIgnatev' target='_blank'>{telegram}</Link></div>
 <div className="ml-[10px]"><Link href='https://mail.google.com/mail/u/0/#sent?compose=GTvVlcSBmmDKrgQKJHKzXZZKMwwWQkfHXNCXbhTHkFZdTVSnRtBfHMCXjlcVdrpHHVScgnPXRTmpp' target='_blank'>{mail}    </Link></div>
 </div>
