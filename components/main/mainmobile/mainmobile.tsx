@@ -10,9 +10,9 @@ const Mainmobile = () => {
 <h2 className=' text-[16px]'>Фронтенд разработчик</h2>
 <h1 className='text-[36px] font-bold'>Сергей Игнатьев</h1>
 </div>
-<img src="/photo.png" alt="" />
+<img src="/photo.png" alt="me" className='' />
 
-<div className="pl-[36px] pr-[18px]">
+<div className="pl-[36px] pr-[18px] ">
 {texts.map(t=><div className='text-[12px] mt-[20px] text-[#e9e9e9]' key={t.id}>{t.text}</div>)}</div>
     <div className="flex justify-center mt-[20px] px-[55px]">
       <Link className={`${btn} text-[#1f1f1f] bg-[#e9e9e9]`} href='/projects'>Проекты</Link>

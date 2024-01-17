@@ -10,7 +10,7 @@ const Footer = () => {
 
   return (
 <>
-  
+  <div className="lg:h-[0px] bg-[#1f1f1f]"></div>
     <footer className="bg-[#1f1f1f] pb-[46px] text-[#e9e9e9] lg:px-[56px]  border-t-[1px] border-white  w-[100%]">
    
    <div className="flex lg:flex-row flex-col">
